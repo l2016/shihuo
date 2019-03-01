@@ -1,4 +1,5 @@
 import axios from "axios";
+import {goodsList} from "../../apis/home";
 export default {
    handleHeaders({commit}){
    	axios({
@@ -37,5 +38,10 @@ export default {
    	.then((data)=>{
    		commit("handleActivity",data.data)
    	})
+   },
+   
+   async handleGoodsList({commit},params){
+   	let data = await goodsList(params)
+   	commit("handleGoodsList",data.data)
    }
 }

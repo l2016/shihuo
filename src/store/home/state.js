@@ -2,5 +2,9 @@ export default {
     headerList:[],
     hwaderBannerImg:[],
     seckills:[],
-    activity:[]
+    activity:[],
+    goodsList:[],
+    tabs:[],
+    tabNav:[],
+    tabList:[]
 }

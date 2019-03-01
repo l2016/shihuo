@@ -18,27 +18,32 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component:Home
+//    component:Home
+			component:()=>import("../components/home/home")
     },
     {
       path: '/discounts',
       name: 'discounts',
-      component:Discounts
+//    component:Discounts
+			component:(resolve)=>require(["../components/discounts/discounts.vue"],resolve)
     },
     {
       path: '/find',
       name: 'find',
-      component:Find
+//    component:Find
+      component:()=>import("../components/find/find")
     },
     {
       path: '/equip',
       name: 'equip',
-      component:Equip
+//    component:Equip
+      component:()=>import("../components/equip/equip")
     },
     {
       path: '/more',
       name: 'more',
-      component:More
+//    component:More
+      component:()=>import("../components/more/more")
     },
     {
       path:"**",

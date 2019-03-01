@@ -10,6 +10,12 @@ export default {
     },
     handleActivity(state,params){
     	state.activity = params;
-    	console.log(params)
+    },
+    
+    handleGoodsList(state,params){
+    	let datas = params[0].data
+    	state.tabNav = datas;
+    	state.tabList = params;
+    	console.log(state.tabList)
     }
 }
