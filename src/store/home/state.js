@@ -6,5 +6,10 @@ export default {
     goodsList:[],
     tabs:[],
     tabNav:[],
-    tabList:[]
+    tabList:[],
+    basketballList:[],
+    runList:[],
+    fitnessList:[],
+    trendList:[],
+    page:1
 }

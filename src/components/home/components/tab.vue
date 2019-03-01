@@ -1,6 +1,6 @@
 <template>
 	<div class="tab">
-		<div class="tab-nav">
+		<!--<div class="tab-nav">
 			<ul class="nav-nav">
 				<li v-for="(item,index) in activity.tabNav" @click="handleToggleNav(index)">
 					<router-link to="" :class="index == tabNavIndex ? 'activeNav':''">
@@ -17,25 +17,11 @@
 			</ul>
 		</div>
 		<div class="tabBar">
-			<div class="tabBar-top">
-				<h3>{{tabNav.title}}</h3>
-				<div class="tabBar-top-img">
-					<div class="tabBar-img" v-for="(item,index) in tabNav.img_full_screen">
-						<img :src="item" />
-					</div>
-				</div>
-				<div class="tabBar-name">
-					<div class="tabBar-name-img">
-						<img :src="tabNav.avatar" />
-					</div>
-					<p>{{tabNav.author_name}}</p>
-				</div>
-			</div>
 			<div class="tabBar-conent">
 				<ul>
 					<li v-for="(item,index) in tabList">
 						<div class="tabBar-conent-img">
-							<img :src="item.data.img" alt="" />
+							<img :src="item.data.img"/>
 						</div>
 						<div class="tabBar-conent-R">
 							<h4>{{item.data.title}}</h4>
@@ -46,25 +32,140 @@
 					</li>
 				</ul>
 			</div>
-		</div>
+		</div>-->
+		<mt-navbar v-model="selected" class="nav-nav">
+			<mt-tab-item id="1" class="tab-nav">推荐</mt-tab-item>
+			<mt-tab-item id="2" class="tab-nav">篮球</mt-tab-item>
+			<mt-tab-item id="3" class="tab-nav">跑步</mt-tab-item>
+			<mt-tab-item id="4" class="tab-nav">健身</mt-tab-item>
+			<mt-tab-item id="5" class="tab-nav">潮流</mt-tab-item>
+		</mt-navbar>
+
+		<!-- tab-container -->
+		<mt-tab-container v-model="selected">
+			<mt-tab-container-item id="1">
+				<div class="tabBar">
+					<div class="tabBar-conent">
+						<ul>
+							<li v-for="(item,index) in tabList">
+								<div class="tabBar-conent-img">
+									<img :src="item.data.img" />
+								</div>
+								<div class="tabBar-conent-R">
+									<h4>{{item.data.title}}</h4>
+									<p>{{item.data.intro}}</p>
+									<p class="tabBar-conent-R-p">{{item.data.subtitle}}</p>
+									<p>{{item.data.merchant}}<span class="tabBar-conent-price">￥{{item.data.price}}</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</mt-tab-container-item>
+			<mt-tab-container-item id="2">
+				<div class="tabBar">
+					<div class="tabBar-conent">
+						<ul>
+							<li v-for="(item,index) in basketballList">
+								<div class="tabBar-conent-img">
+									<img :src="item.data.img" />
+								</div>
+								<div class="tabBar-conent-R">
+									<h4>{{item.data.title}}</h4>
+									<p>{{item.data.intro}}</p>
+									<p class="tabBar-conent-R-p">{{item.data.subtitle}}</p>
+									<p>{{item.data.merchant}}<span class="tabBar-conent-price">￥{{item.data.price}}</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</mt-tab-container-item>
+			<mt-tab-container-item id="3">
+				<div class="tabBar">
+					<div class="tabBar-conent">
+						<ul>
+							<li v-for="(item,index) in runList">
+								<div class="tabBar-conent-img">
+									<img :src="item.data.img" />
+								</div>
+								<div class="tabBar-conent-R">
+									<h4>{{item.data.title}}</h4>
+									<p>{{item.data.intro}}</p>
+									<p class="tabBar-conent-R-p">{{item.data.subtitle}}</p>
+									<p>{{item.data.merchant}}<span class="tabBar-conent-price">￥{{item.data.price}}</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</mt-tab-container-item>
+			<mt-tab-container-item id="4">
+				<div class="tabBar">
+					<div class="tabBar-conent">
+						<ul>
+							<li v-for="(item,index) in fitnessList">
+								<div class="tabBar-conent-img">
+									<img :src="item.data.img" />
+								</div>
+								<div class="tabBar-conent-R">
+									<h4>{{item.data.title}}</h4>
+									<p>{{item.data.intro}}</p>
+									<p class="tabBar-conent-R-p">{{item.data.subtitle}}</p>
+									<p>{{item.data.merchant}}<span class="tabBar-conent-price">￥{{item.data.price}}</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</mt-tab-container-item>
+			<mt-tab-container-item id="5">
+				<div class="tabBar">
+					<div class="tabBar-conent">
+						<ul>
+							<li v-for="(item,index) in trendList">
+								<div class="tabBar-conent-img">
+									<img :src="item.data.img" />
+								</div>
+								<div class="tabBar-conent-R">
+									<h4>{{item.data.title}}</h4>
+									<p>{{item.data.intro}}</p>
+									<p class="tabBar-conent-R-p">{{item.data.subtitle}}</p>
+									<p>{{item.data.merchant}}<span class="tabBar-conent-price">￥{{item.data.price}}</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</mt-tab-container-item>
+		</mt-tab-container>
 	</div>
 
 </template>
 
 <script>
 	import Vuex from "vuex";
+	import Vue from "vue";
+	import { Navbar, TabItem } from 'mint-ui';
+
+	Vue.component(Navbar.name, Navbar);
+	Vue.component(TabItem.name, TabItem);
 	export default {
 		data() {
 			return {
 				tabNavIndex: 0,
-				tabListIndex: 0
+				tabListIndex: 0,
+				selected: "qq"
 			}
 		},
 		computed: {
 			...Vuex.mapState({
-				activity: state => state.home.activity,
 				tabNav: state => state.home.tabNav,
 				tabList: state => state.home.tabList,
+				basketballList: state => state.home.basketballList,
+				runList: state => state.home.runList,
+				fitnessList: state => state.home.fitnessList,
+				trendList: state => state.home.trendList,
 			})
 		},
 		methods: {
@@ -79,6 +180,12 @@
 </script>
 
 <style lang="scss" scoped>
+	.is-selected {
+		color: #dd1712;
+		border-bottom: 3px solid #dd1712;
+		margin-bottom: -3px;
+	}
+	
 	.tab {
 		margin-top: .1rem;
 		width: 100%;
@@ -99,10 +206,6 @@
 				}
 			}
 			.nav-nav {
-				>li {
-					font-size: .26rem;
-					color: #333;
-				}
 				.activeNav {
 					color: #dd1712;
 					border-bottom: 2px solid #dd1712;
@@ -127,26 +230,6 @@
 		.tabBar {
 			width: 100%;
 			padding: .2rem;
-			.tabBar-top {
-				h3 {
-					padding-bottom: .2rem;
-					font-size: .3rem;
-					font-weight: 400;
-				}
-				.tabBar-top-img {
-					width: 100%;
-					display: flex;
-					justify-content: space-around;
-					.tabBar-img {
-						width: 2.19rem;
-						height: 2.26rem;
-						img {
-							width: 100%;
-							height: 100%;
-						}
-					}
-				}
-			}
 			.tabBar-name {
 				width: 100%;
 				padding-left: .2rem;
@@ -192,7 +275,8 @@
 								word-break: break-all;
 								line-height: .5rem;
 							}
-							.tabBar-conent-price,.tabBar-conent-R-p{
+							.tabBar-conent-price,
+							.tabBar-conent-R-p {
 								color: #dd1712;
 							}
 						}

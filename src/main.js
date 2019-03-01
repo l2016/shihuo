@@ -7,6 +7,9 @@ import "./common/css/reset.css";
 import "./common/js/flexble";
 import "./assets/iconfont/iconfont.css";
 import store from "./store";
+import MintUI from "mint-ui";
+import 'mint-ui/lib/style.css';
+Vue.use(MintUI)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

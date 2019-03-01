@@ -1,5 +1,5 @@
 import axios from "axios";
-import {goodsList} from "../../apis/home";
+import {goodsList,basketballList,runList,fitnessList,trendList} from "../../apis/home";
 export default {
    handleHeaders({commit}){
    	axios({
@@ -43,5 +43,21 @@ export default {
    async handleGoodsList({commit},params){
    	let data = await goodsList(params)
    	commit("handleGoodsList",data.data)
+   },
+   async handleBasketballList({commit},params){
+   	let data = await basketballList(params)
+   	commit("handleBasketballList",data.data)
+   },
+   async handleRunList({commit},params){
+   	let data = await runList(params)
+   	commit("handleRunList",data.data)
+   },
+   async handleFitnessList({commit},params){
+   	let data = await fitnessList(params)
+   	commit("handleFitnessList",data.data)
+   },
+   async handleTrendList({commit},params){
+   	let data = await trendList(params)
+   	commit("handleTrendList",data.data)
    }
 }

@@ -28,18 +28,51 @@
 			"Activity-com": Activity,
 			"Tab-com": Tab,
 		},
-		mounted() {
-			this.scroll = new BScroll(this.$refs.homeWrapper,{
-				click:true,
-				tab:true
+		computed: {
+			...Vuex.mapState({
+				tabList: state => state.home.tabList,
+				page: state => state.home.page,
+				basketballList: state => state.home.basketballList,
+				runList: state => state.home.runList,
+				fitnessList: state => state.home.fitnessList,
+				trendList: state => state.home.trendList
 			})
 		},
-		created(){
-			this.handleGoodsList()
+		watch: {
+			tabList(newVal, oldVal) {
+				this.scroll.refresh();
+				this.scroll.finishPullUp();
+				//				console.log(newVal,oldVal)
+			}
 		},
-		methods:{
+		mounted() {
+			this.scroll = new BScroll(this.$refs.homeWrapper, {
+				pullUpLoad: true,
+				click: true,
+				tab: true
+			});
+			this.scroll.on("pullingUp", () => {
+				this.handleGoodsList(this.page);
+				this.handleBasketballList(this.page);
+				this.handleRunList(this.page);
+				this.handleFitnessList(this.page);
+				this.handleTrendList(this.page);
+			})
+		},
+		created() {
+			this.handleGoodsList(this.page);
+			this.handleBasketballList(this.page);
+			this.handleRunList(this.page);
+			this.handleFitnessList(this.page);
+			this.handleTrendList(this.page);
+		},
+		methods: {
 			...Vuex.mapActions({
-				handleGoodsList:"home/handleGoodsList"
+				handleGoodsList: "home/handleGoodsList",
+				handleBasketballList: "home/handleBasketballList",
+				handleRunList: "home/handleRunList",
+				handleFitnessList: "home/handleFitnessList",
+				handleTrendList: "home/handleTrendList",
 			})
 		}
 	}
@@ -52,5 +85,4 @@
 		background: #f2f2f2;
 		padding-bottom: 1rem;
 	}
-	
 </style>
