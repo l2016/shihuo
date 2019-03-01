@@ -2,7 +2,7 @@
 	<div class="activity">
 		<div class="discounts">
 			<ul>
-				<li v-for="(item,index) in activity.discounts">
+				<li v-for="(item,index) in activity.discounts" :key="index"> 
 					<router-link to="">
 						<div class="discounts-conent">
 							<p>{{item.name}}</p>
