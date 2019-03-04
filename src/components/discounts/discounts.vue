@@ -6,7 +6,7 @@
 				<TabBar/>	
 				<Temai/>
 				<Navs/>
-				<Bgall/>
+				<Bgtab/>
 			</div>
 		</div>
 	</div>
@@ -18,17 +18,23 @@ import Header from '../common/header'
 import TabBar from './components/tabbar'
 import Temai from './components/temai'
 import Navs from './components/navs'
-import Bgall from './components/bgall'
+import Bgtab from './components/bgtab'
 import BScroll from "better-scroll";
-
 export default{
 	components:{
 		"Header":Header,
 		"TabBar":TabBar,
 		"Temai":Temai,
 		"Navs":Navs,
-		"Bgall":Bgall
-	},	
+		"Bgtab":Bgtab,
+	},
+	created(){
+		 this.handleDisData()
+		 this.handFootWear()
+		 this.handCostume()
+		 this.handCode()
+		 this.handIterest()
+	},
 	computed: {
     ...Vuex.mapState({
       state:state=>state.descounts
@@ -45,7 +51,24 @@ export default{
 		   deep:true
 	  }
 	  
-  }
+	},
+	methods:{
+		...Vuex.mapActions({
+			handleDisData:"descounts/handleDisData"
+		}),
+		...Vuex.mapActions({
+			handFootWear:"descounts/handFootWear"
+		}),
+		...Vuex.mapActions({
+	  	handCostume:"descounts/handCostume"
+		}),
+		...Vuex.mapActions({
+	  	handCode:"descounts/handCode"
+		}),
+		...Vuex.mapActions({
+	  	handIterest:"descounts/handIterest"
+		}),
+	}
      
 }
 </script>

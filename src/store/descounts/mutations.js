@@ -9,6 +9,20 @@ export default {
     },
     handleNavs(state,params){
         state.handleNavs = params
-    }
-
+    },
+    handleDisData(state,params){
+        state.handleDisData = params;      
+    },
+    handFootWear(state,params){
+        state.handFootWear = params;  
+    },
+    handCostume(state,params){
+        state.handCostume = params;  
+    },
+    handCode(state,params){
+        state.handCode = params;  
+    },
+    handIterest(state,params){
+        state.handIterest = params;   
+    },
 }

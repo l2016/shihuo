@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
    .navs-swiper{
        width: 100%;
        height: 5rem;

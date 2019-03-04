@@ -1,5 +1,10 @@
 export default {
      goodsList:[],
      handleBrand:[],
-     handleNavs:[]
+     handleNavs:[],
+     handleDisData:[],
+     handFootWear:[],
+     handCostume:[],
+     handCode:[],
+     handIterest:[]
 }
