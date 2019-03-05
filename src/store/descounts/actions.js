@@ -29,9 +29,11 @@ export default {
         })
     },
     async handleDisData({commit},params){
+        console.log(params)
         let data = await disData(params)
+         console.log(data.data)
         commit("handleDisData",data.data)
-        console.log(data)
+       
     },
     async handFootWear({commit},params){
         let data = await disFootWear(params)

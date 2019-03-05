@@ -6,12 +6,12 @@
 				<TabBar/>	
 				<Temai/>
 				<Navs/>
-				<Bgtab/>
+				<Bgtab/>			
 			</div>
 		</div>
+		
 	</div>
 </template>
-
 <script>
 import Vuex from "vuex";
 import Header from '../common/header'
@@ -29,7 +29,7 @@ export default{
 		"Bgtab":Bgtab,
 	},
 	created(){
-		 this.handleDisData()
+		 this.handleDisData(this.page)
 		 this.handFootWear()
 		 this.handCostume()
 		 this.handCode()
@@ -37,7 +37,8 @@ export default{
 	},
 	computed: {
     ...Vuex.mapState({
-      state:state=>state.descounts
+			state:state=>state.descounts,
+			page:state=>state.descounts.page
     })
   },
   watch: {

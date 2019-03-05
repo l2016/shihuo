@@ -11,10 +11,12 @@ export default {
         state.handleNavs = params
     },
     handleDisData(state,params){
-        state.handleDisData = params;      
+        state.handleDisData = [...state.handleDisData,...params];
+        state.page++;       
     },
     handFootWear(state,params){
-        state.handFootWear = params;  
+        state.handFootWear = params;
+        
     },
     handCostume(state,params){
         state.handCostume = params;  

@@ -5,10 +5,10 @@
         <b>品牌特卖</b>
       </div>
       <div class="right">
-        <a href="##">
+        <router-link to="">
         更多品牌
         <img src="//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/youhui/index/more_6ed9489.png" >
-        </a>
+       </router-link>
       </div>
     </div>
     

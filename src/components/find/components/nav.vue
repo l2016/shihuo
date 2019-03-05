@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Vuex from "vuex";
+
 import BScroll from "better-scroll";
 export default {
   data() {
@@ -139,7 +139,7 @@ export default {
     height: 1.24rem;
     
     .hots{
-       display: flex;
+      display: flex;
       width: max-content;
       align-items: center;
       flex-wrap: nowrap;
