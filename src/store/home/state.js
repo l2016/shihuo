@@ -1,3 +1,4 @@
+import {getCookie} from "../../utils/auth";
 export default {
     headerList:[],
     hwaderBannerImg:[],
@@ -11,5 +12,11 @@ export default {
     runList:[],
     fitnessList:[],
     trendList:[],
-    page:1
+    page:1,
+    seoList:[],
+    
+    username:"",
+    password:"",
+    user:"",
+    token:""||getCookie()
 }

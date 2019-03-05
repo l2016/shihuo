@@ -1,19 +1,21 @@
 <template>
   <div id="app">
     <router-view/>
-    <Footer-com/>
-    <GetTop-com/>
+    <Footer-com v-if="flag" v-show="this.$route.meta.flag"/>
   </div>
 </template>
 
 <script>
 import Footer from "./components/common/footer";
-import GetTop from "./components/common/getTop";
 export default {
   name: 'App',
   components:{
     "Footer-com":Footer,
-    "GetTop-com":GetTop
+  },
+  data(){
+  	return{
+  		flag:true
+  	}
   }
 }
 </script>

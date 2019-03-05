@@ -33,5 +33,15 @@ export default {
 	handleTrendList(state, params) {
 		state.trendList = [...state.tabList, ...params];
 		state.page++;
-	}
+	},
+	handleSeoList(state,params){
+		state.seoList = params;
+	},
+	//登录注册
+	 handleLogin(state,params){
+	 	state.user = params;
+	 },
+	handleRegister(state,params){
+		state.user = params;
+	},
 }
