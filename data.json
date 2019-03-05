@@ -1,0 +1,226 @@
+{
+	"data": [
+		{
+			"img": "http://shihuo.hupucdn.com/def/20181105/2355ddafee2bdc0963e346192576c3631541383761.jpg?imageView2/0/w/160/h/160/interlace/1",
+			"name": "篮球",
+			"details": "纯白系列秒杀"
+		}, {
+			"img": "http://shihuo.hupucdn.com/def/20180801/a580ec1affbbf4a344974bc92969c7671533133549.jpg?imageView2/0/w/160/h/160/interlace/1",
+			"name": "跑步",
+			"details": "女王节秒杀"
+		}, {
+			"img": "http://shihuo.hupucdn.com/trade/reposition/2017-09-15/3e353e10cc19dda87f4786c56cf711c4.png?imageView2/0/w/160/h/160/interlace/1",
+			"name": "健身",
+			"details": "步瑞特装备秒杀"
+		}, {
+			"img": "http://shihuo.hupucdn.com/def/20170913/5dc29f834528ddfaaf2c6e85769aa5451505294878.jpg?imageView2/0/w/160/h/160/interlace/1",
+			"name": "足球",
+			"details": "其实是在吹总裁"
+		}, {
+			"img": "http://shihuo.hupucdn.com/trade/reposition/2017-11-29/7bffa5f42341f0c196db59b9fa89de60.png?imageView2/0/w/160/h/160/interlace/1",
+			"name": "潮流",
+			"details": "78元短袖秒杀"
+		}, {
+			"img": "http://shihuo.hupucdn.com/def/20180108/d46c35eb43ed513783e8db72e97e06a71515391268.jpg?imageView2/0/w/160/h/160/interlace/1",
+			"name": "数码",
+			"details": "折叠屏手机"
+		}
+	],
+	"headers": [
+		{
+			"img": "//sh1.hoopchina.com.cn/apple-touch-icon.png",
+			"introduce": "识货APP · 全世界的运动好货",
+			"name": "获取运动装备最低价"
+		}, {
+			"img": "http://shihuo.hupucdn.com/def/20181227/a55f87b48c0bf85541cd1d037fc743db1545909561.jpg",
+			"introduce": "adidas Dame Lillard 5",
+			"price": "￥499",
+			"discount": "5.6折",
+			"del": "￥999"
+		}, {
+			"img": "http://shihuo.hupucdn.com/def/20171001/3d7e9a1f2fe873a07ba634f68ec661ea1506866200.jpg",
+			"introduce": "Jordan B. Fly X",
+			"price": "￥238",
+			"discount": "3.0折",
+			"del": "￥799"
+		}, {
+			"img": "http://shihuo.hupucdn.com/def/20181108/f6341b2b080ef3d1a8c02c2e7c1f2b8a1541668694.jpg",
+			"introduce": "Nike Zoom Kobe 1",
+			"price": "￥999",
+			"discount": "7.1折",
+			"del": "￥1399"
+		}
+	],
+	"bannerImgs": [
+		"http://shihuo.hupucdn.com/appHome/201901/0909/246bc13aad8b60058a81d242512e983f.png?imageView2/2/w/750/h/380/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201901/0720/18cffc61c52a5ce61173479619bbaa6e.png?imageView2/2/w/750/h/380/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201901/1010/5480e24dc886bde3fd4c599d22330d65.png?imageView2/2/w/750/h/380/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201901/0500/d63108ffbf581d59f8d3552e346b8258.jpg?imageView2/2/w/750/h/380/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201901/0810/e3e9e3e19c8ac46b699f554b3aca7538.jpg?imageView2/2/w/750/h/380/interlace/1"
+	],
+	"activity": {
+		"discounts": [
+			{
+				"img": "http://shihuo.hupucdn.com/appHome/201807/1811/1d039f64648d5e33025c747ec6420060.jpg?imageView2/2/w/120/h/120/interlace/1",
+				"name": "今日优惠",
+				"dat":"EQT 5折好价"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appHome/201802/0716/5d0eea37252cd190ba0975b3e5e1f49e.png?imageView2/2/w/120/h/120/interlace/1",
+				"name": "限时团购",
+				"dat":"春节不打烊"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appHome/201807/1310/f975458f8da63b0769796aba49271e1c.jpg?imageView2/2/w/120/h/120/interlace/1",
+				"name": "一键海淘",
+				"dat":"卡西欧黑金249元"
+			}
+		],
+		"hot": [
+			{
+				"img": "http://shihuo.hupucdn.com/appHome/201808/1710/5e683699826e2a13abd239e4e4e36793.jpg",
+				"name": "skullcandy骷髅头耳机",
+				"dat":"券后低至89元起"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appZone/201811/1214/2720301b13ee5c2b0003f78125b698ea.jpg",
+				"name": "1000块包全身",
+				"dat":"不说虚话"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appZone/201812/0411/e8dd17f83bc977f0d7014a077ed9d821.jpg",
+				"name": "怎么穿，显高且有范",
+				"dat":"170+穿搭指南"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appZone/201807/2411/b9541b36f94bfa8c6c51482e7536eb35.jpg",
+				"name": "实战性价比之选",
+				"dat":"球星支线"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appZone/201811/1214/7d721a0762b1a4762557aa33c75e6404.jpg",
+				"name": "花鸟市场行",
+				"dat":"今天穿这样"
+			},
+			{
+				"img": "http://shihuo.hupucdn.com/appZone/201811/1019/7e5b5b66171686cf805178be1c793bf0.jpg",
+				"name": "虎扑优选精英篮球袜",
+				"dat":"低至6.9元"
+			}			
+		]
+	},
+	"dis":[
+        {
+          "img":"http://shihuo.hupucdn.com/appHome/201711/0113/705803887a16991348788bc77ef96298.png",
+          "name":"运动"
+        },
+        {
+            "img":"http://shihuo.hupucdn.com/appHome/201711/0113/ed229a3887b997986de9d2fa99968f2c.png",
+            "name":"休闲"
+        },
+        {
+            "img":"http://shihuo.hupucdn.com/appHome/201711/0113/3be9bb6590b50ae4c2c823353ebd1bb9.png",
+            "name":"户外"
+        },
+        {
+            "img":"http://shihuo.hupucdn.com/appHome/201711/0113/26a9c61773702db21dbe4b9d9a5bed60.png",
+            "name":"数码"
+		},
+		{
+            "img":"http://shihuo.hupucdn.com/appHome/201711/0113/487a7ff8df880418d15d3db5e4608a0f.png",
+            "name":"更多"
+        }
+	],
+	"brands":[
+		{
+			"imgPic1":"http://shihuo.hupucdn.com/appHome/201801/0811/8b50d3b1734f11c83f911a361c96d1b9.jpg",
+			"imgPic2":"http://shihuo.hupucdn.com/goods/style/201708/1716/a8418a3ae650e7c5c76eea45f2a2bcc1.png",
+			"tit":"日照",
+			"subtit":"定金50抵450"
+		},
+		{
+			"imgPic1":"http://shihuo.hupucdn.com/appHome/201801/0612/71cd68692b56ab4bd992716e2c010270.jpg",
+			"imgPic2":"http://shihuo.hupucdn.com/goods/style/201708/1716/4ef177124aa7ba5eb5d6ef5c135ae057.png",
+			"tit":"匹克",
+			"subtit":"不止5折"
+		},
+		{
+			"imgPic1":"http://shihuo.hupucdn.com/appHome/201801/0612/ecbb92938c6c2e81bf6d4825f82b5fd9.jpg",
+			"imgPic2":"http://shihuo.hupucdn.com/newslogo/201710/1814/cd232408542a3bafc7eb464f74909171.jpg",
+			"tit":"dickies",
+			"subtit":"满11减10元"
+		},
+		{
+			"imgPic1":"http://shihuo.hupucdn.com/appHome/201801/0811/8f97c03a7fd2604d27568b087b8b5b59.jpg",
+			"imgPic2":"http://shihuo.hupucdn.com/goods/style/201708/1716/6c79a6f7612a56c851451ca0f0929025.png",
+			"tit":"铭瑄",
+			"subtit":"虎扑专享满600减180"
+		},
+        {
+			"imgPic1":"http://shihuo.hupucdn.com/appHome/201801/0811/985b1e7d8fc8eddc2a80c2b8b309ac2d.jpg",
+			"imgPic2":"http://shihuo.hupucdn.com/goods/style/201708/1716/bf41e50f5ace374682d8f9e104a9a953.png",
+			"tit":"UA",
+			"subtit":"虎扑专享满600减180"
+		},
+		{
+			"imgPic1":"http://shihuo.hupucdn.com/appHome/201801/0612/6751d06bc35a2e370f97982491bde549.jpg",
+			"imgPic2":"http://shihuo.hupucdn.com/newslogo/201710/2312/e08733467eb951d4ff57debfbf97396e.jpg",
+			"tit":"Sony索尼",
+			"subtit":"满48减10"
+		}
+	],
+	"navs":[
+		{
+			"img":"http://shihuo.hupucdn.com/baicai/201808/3119/6db47a1e9cc45c4c4921ca0105f65216.jpg?imageView2/0/w/600/h/600/interlace/1",
+			"name":"vivonex磨砂钢化膜全屏全覆盖",
+			"price":"25"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pMi8zOTMwNTQ0NzkvVEIydW42MmQ4eVdCdU5rU21GUFhYWGd1VlhhXyEhMzkzMDU0NDc5LmpwZw?imageView2/0/w/600/h/600/interlace/1",
+			"name":"搓背神器搓澡巾拉背长条成人双面磨砂",
+			"price":"8.9"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pMS8zOTMwNTQ0NzkvVEIybkZHc3FsbVdCdU5rU25kVlhYY3NBcFhhXyEhMzkzMDU0NDc5LmpwZw?imageView2/0/w/600/h/600/interlace/1",
+			"name":"厕所纸巾盒免打孔卫生巾纸盒防水卷纸架",
+			"price":"7.9"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pMS8zOTMwNTQ0NzkvVEIyUk55TGdzVXJCS05qU1pQeFhYWDAwcFhhXyEhMzkzMDU0NDc5LmpwZw?imageView2/0/w/600/h/600/interlace/1",
+			"name":"肥皂盒旅行个性创意可爱浴室大号",
+			"price":"8.9"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pMi8zOTMwNTQ0NzkvVEIyZFpUVG80U1lCdU5qU3NwalhYWDczVlhhXyEhMzkzMDU0NDc5LmpwZw?imageView2/0/w/600/h/600/interlace/1",
+			"name":"衣架无痕家用成人衣撑撑子多功能衣挂成人",
+			"price":"5.9"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pNC8zOTMwNTQ0NzkvVEIyUHI3U2ptWVRCS05qU1pLYlhYWEo4cFhhXyEhMzkzMDU0NDc5LmpwZw?imageView2/0/w/600/h/600/interlace/1",
+			"name":"一次性压缩洗脸毛巾旅行速干家用干净卫生",
+			"price":"8.8"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pNC8yMTY3MjQ3NTg2L1RCMlJrUUZHYW1XQnVOankxWGFYWFhDYlhYYV8hITIxNjcyNDc1ODYuanBn?imageView2/0/w/600/h/600/interlace/1",
+			"name":"沙发垫蔺草草席凉席坐垫夏季沙发巾套",
+			"price":"19.67"
+		},
+		{
+			"img":"http://shihuoproxy.hupucdn.com/aHR0cDovL2ltZy5hbGljZG4uY29tL3Rmc2NvbS9pMS8zMTcwNzMyMTYxL1RCMmdfakhlUVptQktOalNaUGlYWFhGTlZYYV8hITMxNzA3MzIxNjEuanBn?imageView2/0/w/600/h/600/interlace/1",
+			"name":"加厚加大神托 旋转托把拖地家用甩干拖把",
+			"price":"36.9"
+		},
+		{
+			"img":"http://shihuo.hupucdn.com/baicai/201808/3113/05896f4f649f9b144e2333ded0a239c6.png?imageView2/0/w/600/h/600/interlace/1",
+			"name":"手机用手包腰套跑步绑在腰上的手包套运动",
+			"price":"14.02"
+		}
+	],
+	"findBanner": [
+		"http://shihuo.hupucdn.com/appHome/201812/1300/0767ee290a165c7c519696b8c047436c.jpg?imageView2/2/w/750/h/268/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201812/1300/0767ee290a165c7c519696b8c047436c.jpg?imageView2/2/w/750/h/268/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201812/0920/b42ed3c3eca82633072c47a1bf3b53a9.jpg?imageView2/2/w/750/h/268/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201812/1023/736a64832b272c088c9fe01837b0ac4e.jpg?imageView2/2/w/750/h/268/interlace/1",
+		"http://shihuo.hupucdn.com/appHome/201812/0900/d31d0002502c7181c272e5bac796375e.jpg?imageView2/2/w/750/h/268/interlace/1"
+	]
+}

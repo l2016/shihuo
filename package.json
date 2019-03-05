@@ -12,7 +12,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "better-scroll": "^1.14.1",
+<<<<<<< HEAD
     "js-cookie": "^2.2.0",
+=======
+    "element-ui": "^2.5.4",
+>>>>>>> fang
     "mint-ui": "^2.2.13",
     "node-sass": "^4.11.0",
     "qs": "^6.6.0",

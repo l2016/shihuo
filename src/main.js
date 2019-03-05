@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+import 'element-ui/lib/theme-chalk/index.css';
 import "./common/css/reset.css";
 import "./common/js/flexble";
 import "./assets/iconfont/iconfont.css";
@@ -12,6 +16,8 @@ import 'mint-ui/lib/style.css';
 
 Vue.use(MintUI)
 Vue.config.productionTip = false
+Vue.use(ElementUI)
+Vue.use(MintUI)
 
 /* eslint-disable no-new */
 new Vue({

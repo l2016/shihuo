@@ -1,7 +1,7 @@
 <template>
 	<div class="swiper-container header-container" ref="headerContainer">
 		<div class="swiper-wrapper header-wrapper">
-			<div class="swiper-slide header-content" v-for="(item,index) in headerList">
+			<div class="swiper-slide header-content" v-for="(item,index) in headerList" :key="index">
 				<img :src="item.img" />
 				<div class="header-p">
 					<p class="header-name">{{item.introduce}}</p>
