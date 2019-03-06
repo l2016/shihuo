@@ -21,41 +21,7 @@
       <mt-tab-container class="page-tabbar-tab-container" v-model="active" swipeable>
         <mt-tab-container-item id="tab-container1">
           <!-- cell组件 -->
-<<<<<<< HEAD
-          <mt-cell v-for="(n,index) in 1" :key="index" title>
-            <div class="jingxList">
-              <ul>
-                <li v-for="(item,index) in findsDaily" :key="index">
-                  <div class="author">
-                    <a href>
-                      <img
-                        :src="item.data.avatar"
-                        alt
-                      >
-                    </a>
-                    <div class="nameM">
-                      <p class="name">{{item.data.author_name}}</p>
-                      <p class="time">{{item.data.param_str}}</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <a href>
-                      <div class="tit">{{item.data.title}}</div>
-                      <p class="imgOne">
-                        <img
-                          :src="item.data.img"  alt >
-                      </p>                                                                                                                                                   
-                      <div class="tags">
-                        <span class="like">{{item.data.praise}}</span>
-                        <span class="say">{{item.data.reply_count}}</span>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-=======
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">
+          <mt-cell v-for="(n,index) in 1" :key="index" title="">
               <div class="jingxList">
                   <ul>
                       <li v-for="(item,index) in handleDaily" :key="index">
@@ -82,45 +48,11 @@
                   </ul>
               </div>
               
->>>>>>> fang
           </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container2">
           <!-- cell组件 -->
-<<<<<<< HEAD
-          <mt-cell v-for="(n,index) in 1" :key="index" title>
-            <div class="jingxList">
-              <ul>
-                <li v-for="(item,index) in findsNews" :key="index">
-                  <div class="author">
-                    <a href>
-                      <img
-                        :src="item.data.avatar"
-                        alt
-                      >
-                    </a>
-                    <div class="nameM">
-                      <p class="name">{{item.data.author_name}}</p>
-                      <p class="time">{{item.data.param_str}}</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <a href>
-                      <div class="tit">{{item.data.title}}</div>
-                      <p class="imgOne">
-                        <img
-                          :src="item.data.img"  alt >
-                      </p>                                                                                                                                                   
-                      <div class="tags">
-                        <span class="like">{{item.data.praise}}</span>
-                        <span class="say">{{item.data.reply_count}}</span>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-=======
+         
           <mt-cell v-for="(n,index) in 1" :key="index" title="">
             <div class="jingxList">
                   <ul>
@@ -147,46 +79,11 @@
                       </li>
                   </ul>
               </div>
->>>>>>> fang
           </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container3">
           <!-- cell组件 -->
-<<<<<<< HEAD
-          <mt-cell v-for="(n,index) in 1" :key="index" title>
-            <div class="jingxList">
-              <ul>
-                <li v-for="(item,index) in findsEval" :key="index">
-                  <div class="author">
-                    <a href>
-                      <img
-                        :src="item.data.avatar"
-                        alt
-                      >
-                    </a>
-                    <div class="nameM">
-                      <p class="name">{{item.data.author_name}}</p>
-                      <p class="time">{{item.data.param_str}}</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <a href>
-                      <div class="tit">{{item.data.title}}</div>
-                      <p class="imgOne">
-                        <img
-                          :src="item.data.img"  alt >
-                      </p>                                                                                                                                                   
-                      <div class="tags">
-                        <span class="like">{{item.data.praise}}</span>
-                        <span class="say">{{item.data.reply_count}}</span>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-=======
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">3
+          <mt-cell v-for="(n,index) in 1" :key="index" title="">
              <div class="jingxList">
                   <ul>
                       <li v-for="(item,index) in handleEval" :key="index">
@@ -212,46 +109,11 @@
                       </li>
                   </ul>
               </div>
->>>>>>> fang
           </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container4">
           <!-- cell组件 -->
-<<<<<<< HEAD
-          <mt-cell v-for="(n,index) in 1" :key="index" title>
-             <div class="jingxList">
-              <ul>
-                <li v-for="(item,index) in findsList" :key="index">
-                  <div class="author">
-                    <a href>
-                      <img
-                        :src="item.data.avatar"
-                        alt
-                      >
-                    </a>
-                    <div class="nameM">
-                      <p class="name">{{item.data.author_name}}</p>
-                      <p class="time">{{item.data.param_str}}</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    <a href>
-                      <div class="tit">{{item.data.title}}</div>
-                      <p class="imgOne">
-                        <img
-                          :src="item.data.img"  alt >
-                      </p>                                                                                                                                                   
-                      <div class="tags">
-                        <span class="like">{{item.data.praise}}</span>
-                        <span class="say">{{item.data.reply_count}}</span>
-                      </div>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-=======
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">
+          <mt-cell v-for="(n,index) in 1" :key="index" title="">
              <div class="jingxList">
                   <ul>
                       <li v-for="(item,index) in handleList" :key="index">
@@ -277,14 +139,11 @@
                       </li>
                   </ul>
               </div>
->>>>>>> fang
           </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container5">
           <!-- cell组件 -->
-<<<<<<< HEAD
-          <mt-cell v-for="(n,index) in 10" :key="index" title>5</mt-cell>
-=======
+         
           <mt-cell v-for="(n,index) in 10" :key="index" title="">
              <div class="jingxList">
                   <ul>
@@ -312,7 +171,6 @@
                   </ul>
               </div>
           </mt-cell>
->>>>>>> fang
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container6">
           <!-- cell组件 -->
@@ -343,18 +201,20 @@ export default {
     return { active: "tab-container1" };
   },
   computed:{
-<<<<<<< HEAD
      ...Vuex.mapState({
-         findsDaily:state => state.find.handfindDaily
+         handleDaily:state => state.find.handleDaily
      }),
      ...Vuex.mapState({
-         findsNews:state => state.find.handfindNews
+         handleNews:state => state.find.handleNews
      }),
      ...Vuex.mapState({
-       findsEval:state =>state.find.handfindEval 
+       handleEval:state =>state.find.handleEval 
      }),
      ...Vuex.mapState({
-       findsList:state =>state.find.handfindList 
+       handleList:state =>state.find.handleList 
+     }),
+     ...Vuex.mapState({
+       handlePad:state =>state.find.handlePad
      })
   },
   updated() {
@@ -362,37 +222,12 @@ export default {
       this.scroll = new BScroll(this.$refs.tabBar, {
         scrollX: true
       });
-      console.log(this.scroll);
-=======
-         ...Vuex.mapState({
-        handleDaily: state => state.find.handleDaily
-       }),  
-        ...Vuex.mapState({
-        handleNews: state => state.find.handleNews
-       }),   
-       ...Vuex.mapState({
-        handleEval: state => state.find.handleEval
-       }),   
-         ...Vuex.mapState({
-        handleList: state => state.find.handleList
-       }), 
-       ...Vuex.mapState({
-        handlePad: state => state.find.handlePad
-       }), 
-  },
-  updated(){
-        if(!this.scroll){
-            this.scroll = new BScroll(this.$refs.tabBar,{
-                scrollX:true
-            })
-            console.log(this.scroll)
-        }
-
->>>>>>> fang
-    }
-  }
+   //   console.log(this.scroll);
+       
   
-};
+  };
+ }
+}
 </script> 
 <style lang="css" scoped>
 .item {
@@ -410,45 +245,13 @@ export default {
   padding: 10px;
   display: block;
 }
-<<<<<<< HEAD
 .navs-wrapper {
   background: #fff;
   width: 100%;
-=======
-#navs{
+}
+ #navs{
     background: #fff;
     width: 100%;
-}
-.jingxList{
-    width: 100%;
-    padding-left: 0.1rem;
-    padding-bottom: .53333rem;
-}
-ul>li{
-    border-bottom: 1px solid #e6e6e6;
-    padding: .26667rem .26667rem .26667rem 0;
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-ul>li>.author{
-    width: 100%;
-    height: 1.07rem;
-   
-}
-ul>li>.author>a{
-    width: .8rem;
-    height: .8rem;
-    float: left;
-    border-radius: .6rem;
-    overflow: hidden;
-    margin-right: .2rem;
-} 
-ul>li>.author>a>img{
-    display: block;
-    width: 100%;
-    border: 0;
-
->>>>>>> fang
 }
 .jingxList {
   width: 100%;
@@ -465,7 +268,6 @@ ul > li > .author {
   width: 100%;
   height: 1.07rem;
 }
-<<<<<<< HEAD
 ul > li > .author > a {
   width: 0.8rem;
   height: 0.8rem;
@@ -532,47 +334,6 @@ ul > li > .author > .nameM > .time {
     background-size: .4rem auto;
     line-height: .4rem;
     height: .4rem;
-    color: #a4a4a4;
-=======
-.content>a{
-   width: 100%;
-}
-.content>a>.tit{
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    word-break: break-all;
-}
-.content>a>.imgOne{
-    margin: .2rem 0;
-    width: 6.22rem;
-   
-}
-.content>a>.imgOne>img{
-    width: 100%;
-     height:2.78rem;
-
->>>>>>> fang
-}
-.like{
-  background: url(//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/find/index/like_537e53f.png) left center no-repeat;
-    padding-left: .5rem;
-    background-size: .4rem auto;
-    height: .4rem;
-    display: inline-block;
-    color: #a4a4a4;
-    margin-right: .2rem;
-    line-height: .4rem;
-}
-.say{
-    background: url(//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/find/index/say_348570f.png) left center no-repeat;
-    padding-left: .58667rem;
-    background-size: .45333rem auto;
-    line-height: .45333rem;
-    height: .3rem;
     color: #a4a4a4;
 }
 </style>

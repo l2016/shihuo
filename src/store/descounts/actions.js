@@ -33,11 +33,8 @@ export default {
         let data = await disData(params)
          console.log(data.data)
         commit("handleDisData",data.data)
-<<<<<<< HEAD
        
-=======
         //console.log(data)
->>>>>>> fang
     },
     async handFootWear({commit},params){
         let data = await disFootWear(params)

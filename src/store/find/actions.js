@@ -1,10 +1,6 @@
 import axios from 'axios'
-<<<<<<< HEAD
-import  {findDaily,findNews,findEval,findList} from '../../apis/find'
-=======
 import {handleDaily,handleNews,handleEval,handleList,handlePad} from '../../apis/finds';
 
->>>>>>> fang
 export default {
     findBanner({commit}){
         axios({
@@ -15,27 +11,6 @@ export default {
             commit("findBanner",data.data)
         })
     },
-<<<<<<< HEAD
-    async handfindDaily({commit},params){
-        let data = await findDaily(params)
-        commit("handfindDaily",data.data)
-        console.log(data)
-    },
-    async handfindNews({commit},params){
-        let data = await findNews(params)
-        commit("handfindNews",data.data)
-        console.log(data)
-    },
-    async handfindEval({commit},params){
-        let data = await findEval(params)
-        commit("handfindEval",data.data)
-        console.log(data)
-    },
-    async handfindList({commit},params){
-        let data = await findList(params)
-        commit("handfindList",data.data)
-        console.log(data)
-=======
     async handleDaily({commit},params){
         let data = await handleDaily(params)
         commit("handleDaily",data.data)
@@ -60,6 +35,5 @@ export default {
         let data = await handlePad(params)
         commit("handlePad",data.data)
         //console.log(data)
->>>>>>> fang
     },
 }
