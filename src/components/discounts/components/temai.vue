@@ -4,12 +4,19 @@
       <div>
         <b>品牌特卖</b>
       </div>
+        <router-link :to="{name:'detail'}">
       <div class="right">
+<<<<<<< HEAD
         <router-link to="">
         更多品牌
         <img src="//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/youhui/index/more_6ed9489.png" >
        </router-link>
+=======
+        更多品牌
+          <img src="//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/youhui/index/more_6ed9489.png" >
+>>>>>>> fang
       </div>
+        </router-link>
     </div>
     
     <div class="temaiList"> 

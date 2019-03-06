@@ -80,13 +80,13 @@ export default {
       this.scroll = new BScroll(this.$refs.hotWrap, {
         scrollX: true
       });
-      console.log(this.scroll);
+     // console.log(this.scroll);
     }
   }
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .navs {
   width: 100%;
   height: 1.41rem;

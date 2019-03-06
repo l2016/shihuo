@@ -21,6 +21,7 @@ import Navs from './components/navs'
 import Bgtab from './components/bgtab'
 import BScroll from "better-scroll";
 export default{
+	
 	components:{
 		"Header":Header,
 		"TabBar":TabBar,
@@ -45,8 +46,11 @@ export default{
 	  state:{
 		  handler(){
              if(!this.scroll){
-            this.scroll = new BScroll(this.$refs.homeWrapper);
-            console.log(this.scroll)
+            this.scroll = new BScroll(this.$refs.homeWrapper,{
+							click:true,
+							tab:true
+						});
+            //console.log(this.scroll)
             }
 		  },
 		   deep:true

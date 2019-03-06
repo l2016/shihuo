@@ -6,6 +6,7 @@ import Find from '@/components/find/find';
 import Equip from '@/components/equip/equip';
 import More from '@/components/more/more';
 import ErrorCom from '@/components/error';
+import Detail from '@/components/discounts/detail'
 
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ export default new Router({
       component:(resolve)=>require(["../components/discounts/discounts.vue"],resolve),      
     },
   
+    {
+       path:'/detail',
+       name:'detail',
+       component:Detail
+    },
     {
       path: '/find',
       name: 'find',
