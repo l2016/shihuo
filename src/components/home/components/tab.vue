@@ -14,7 +14,7 @@
 					<div class="tabBar">
 						<div class="tabBar-conent">
 							<ul>
-								<li v-for="(item,index) in tabList">
+								<li v-for="(item,index) in tabList" :key="index">
 									<router-link :to="{name:'list'}">
 										<div class="tabBar-conent-img">
 											<img :src="item.data.img" />
@@ -35,7 +35,7 @@
 					<div class="tabBar">
 						<div class="tabBar-conent">
 							<ul>
-								<li v-for="(item,index) in basketballList">
+								<li v-for="(item,index) in basketballList" :key="index">
 									<router-link :to="{name:'list'}">
 										<div class="tabBar-conent-img">
 											<img :src="item.data.img" />
@@ -56,7 +56,7 @@
 					<div class="tabBar">
 						<div class="tabBar-conent">
 							<ul>
-								<li v-for="(item,index) in runList">
+								<li v-for="(item,index) in runList" :key="index">
 									<router-link :to="{name:'list'}">
 										<div class="tabBar-conent-img">
 											<img :src="item.data.img" />
@@ -77,7 +77,7 @@
 					<div class="tabBar">
 						<div class="tabBar-conent">
 							<ul>
-								<li v-for="(item,index) in fitnessList">
+								<li v-for="(item,index) in fitnessList" :key="index">
 									<router-link :to="{name:'list'}">
 										<div class="tabBar-conent-img">
 											<img :src="item.data.img" />
@@ -98,7 +98,7 @@
 					<div class="tabBar">
 						<div class="tabBar-conent">
 							<ul>
-								<li v-for="(item,index) in trendList">
+								<li v-for="(item,index) in trendList" :key="index">
 									<router-link :to="{name:'list'}">
 										<div class="tabBar-conent-img">
 											<img :src="item.data.img" />

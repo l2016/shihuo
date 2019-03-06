@@ -29,7 +29,7 @@
 </template>
 
 <script>
-
+import Vuex from "vuex";
 import BScroll from "better-scroll";
 export default {
   data() {
@@ -80,13 +80,13 @@ export default {
       this.scroll = new BScroll(this.$refs.hotWrap, {
         scrollX: true
       });
-     // console.log(this.scroll);
+      console.log(this.scroll);
     }
   }
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 .navs {
   width: 100%;
   height: 1.41rem;
@@ -139,7 +139,7 @@ export default {
     height: 1.24rem;
     
     .hots{
-      display: flex;
+       display: flex;
       width: max-content;
       align-items: center;
       flex-wrap: nowrap;

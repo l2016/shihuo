@@ -45,6 +45,9 @@
 				let username = this.username;
 				let password = this.password;
 				this.handleRegister({username,password})
+				setTimeout(function(){
+					this.$router.push("/login")
+				}.bind(this),1000)
 			},
 			...Vuex.mapActions({
 				handleRegister:"home/handleRegister"

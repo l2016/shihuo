@@ -10,14 +10,12 @@ import Seek from '@/components/home/seek';
 import Login from "@/components/home/login/login"
 import Register from "@/components/home/register/register"
 import ErrorCom from '@/components/error';
-import Detail from '@/components/discounts/detail'
-
+import store from "../store"
 
 Vue.use(Router)
 
 const router = new Router({
-	routes: [
-		{
+	routes: [{
 			path: "/",
 			redirect: "/home"
 		},
@@ -28,8 +26,8 @@ const router = new Router({
 				flag: true,
 				title: "首页"
 			},
-			component: (resolve) => require(["../components/home/home"], resolve)
-			
+			component: () =>
+				import("../components/home/home")
 		},
 		{
 			path: "/list",
@@ -38,7 +36,6 @@ const router = new Router({
 				flag: false,
 				title: "列表"
 			},
-			
 			component: () =>
 				import("../components/home/list/list")
 
@@ -52,11 +49,6 @@ const router = new Router({
 			},
 			component: (resolve) => require(["../components/discounts/discounts.vue"], resolve)
 		},
-		{
-			path:'/detail',
-			name:'detail',
-			component:Detail
-		 },
 		{
 			path: '/find',
 			name: 'find',
@@ -128,7 +120,7 @@ router.beforeEach((to, from, next) => {
 	if(to.meta.title){
 		document.title = to.meta.title
 	}
-	var routers = ["home", "find", "equip", "more", "discounts","list"];
+	var routers = ["home", "find", "equip", "more", "discounts"];
 	if(routers.indexOf(to.name) != -1) {
 		let flag = to.meta.flag;
 		if(flag) {

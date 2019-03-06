@@ -22,17 +22,13 @@
 
 <script>
 	import Vuex from "vuex";
+	import {getCookie} from "../../../utils/auth"
 	export default {
 		data(){
 			return{
 				username:"",
 				password:""
 			}
-		},
-		computed:{
-			...Vuex.mapState({
-				login:state=>state.home.login
-			})
 		},
 		methods: {
 			handleClick() {
@@ -42,6 +38,9 @@
 				let username = this.username;
 				let password = this.password;
 				this.handleLogin({username,password});
+				setTimeout(function(){
+					this.$router.push("/home")
+				}.bind(this),1000)
 			},
 			handleClickRegister(){
 				this.$router.push({name:'register'})

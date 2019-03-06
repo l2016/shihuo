@@ -6,12 +6,12 @@
 				<TabBar/>	
 				<Temai/>
 				<Navs/>
-				<Bgtab/>			
+				<Bgtab/>
 			</div>
 		</div>
-		
 	</div>
 </template>
+
 <script>
 import Vuex from "vuex";
 import Header from '../common/header'
@@ -21,7 +21,6 @@ import Navs from './components/navs'
 import Bgtab from './components/bgtab'
 import BScroll from "better-scroll";
 export default{
-	
 	components:{
 		"Header":Header,
 		"TabBar":TabBar,
@@ -30,7 +29,7 @@ export default{
 		"Bgtab":Bgtab,
 	},
 	created(){
-		 this.handleDisData(this.page)
+		 this.handleDisData()
 		 this.handFootWear()
 		 this.handCostume()
 		 this.handCode()
@@ -38,19 +37,15 @@ export default{
 	},
 	computed: {
     ...Vuex.mapState({
-			state:state=>state.descounts,
-			page:state=>state.descounts.page
+      state:state=>state.descounts
     })
   },
   watch: {
 	  state:{
 		  handler(){
              if(!this.scroll){
-            this.scroll = new BScroll(this.$refs.homeWrapper,{
-							click:true,
-							tab:true
-						});
-            //console.log(this.scroll)
+            this.scroll = new BScroll(this.$refs.homeWrapper);
+            console.log(this.scroll)
             }
 		  },
 		   deep:true

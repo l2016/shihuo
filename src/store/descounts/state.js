@@ -6,6 +6,5 @@ export default {
      handFootWear:[],
      handCostume:[],
      handCode:[],
-     handIterest:[],
-     page:1
+     handIterest:[]
 }

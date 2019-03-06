@@ -134,7 +134,7 @@
                         :src="item.img"
                         alt
                       >   
-                      <span class="top">{{item.tag}}</span>                
+                      <span>{{item.tag}}</span>                
                     </div>
                     <div class="details-box">
                       <h2>{{item.title}}</h2>
@@ -264,13 +264,13 @@ export default {
               .top{
                 
                 position: absolute;
-                top: 0.2rem;
-                left: 0.1rem;
+                top: 0.1rem;
+                left: 0;
                 background: rgba(0, 0, 0, 0.6);
                 border-radius: 0.04rem;
                 color: #fff;
                 font-size: 12px;
-                
+                padding: 0.06rem 0.1rem;
               }
             }
             .details-box {

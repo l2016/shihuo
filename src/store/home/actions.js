@@ -71,19 +71,16 @@ export default {
 	 		username:params.username,
 	 		password:params.password
 	 	}
-	 	let data = await login(obj)
-	 	console.log(data)
-	 	if(data.state){
-	 		params.push("/home")
-	 		commit("handleLogin", data.username)
-	 	}
+		 let data = await login(obj)
+	 	commit("handleLogin", data)
 	 },
 	async handleRegister({commit,state},params) {
 		let obj = {
 	 		username:params.username,
 	 		password:params.password
 	 	}
-	 	let data = await register(obj)
+		 let data = await register(obj)
+		 console.log(data)
 	 	commit("handleRegister",data)
 	},
 }

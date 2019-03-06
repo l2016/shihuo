@@ -1,115 +1,140 @@
 {
-	"data": [
-		{
-			"img": "http://shihuo.hupucdn.com/def/20181105/2355ddafee2bdc0963e346192576c3631541383761.jpg?imageView2/0/w/160/h/160/interlace/1",
-			"name": "篮球",
-			"details": "纯白系列秒杀"
-		}, {
-			"img": "http://shihuo.hupucdn.com/def/20180801/a580ec1affbbf4a344974bc92969c7671533133549.jpg?imageView2/0/w/160/h/160/interlace/1",
-			"name": "跑步",
-			"details": "女王节秒杀"
-		}, {
-			"img": "http://shihuo.hupucdn.com/trade/reposition/2017-09-15/3e353e10cc19dda87f4786c56cf711c4.png?imageView2/0/w/160/h/160/interlace/1",
-			"name": "健身",
-			"details": "步瑞特装备秒杀"
-		}, {
-			"img": "http://shihuo.hupucdn.com/def/20170913/5dc29f834528ddfaaf2c6e85769aa5451505294878.jpg?imageView2/0/w/160/h/160/interlace/1",
-			"name": "足球",
-			"details": "其实是在吹总裁"
-		}, {
-			"img": "http://shihuo.hupucdn.com/trade/reposition/2017-11-29/7bffa5f42341f0c196db59b9fa89de60.png?imageView2/0/w/160/h/160/interlace/1",
-			"name": "潮流",
-			"details": "78元短袖秒杀"
-		}, {
-			"img": "http://shihuo.hupucdn.com/def/20180108/d46c35eb43ed513783e8db72e97e06a71515391268.jpg?imageView2/0/w/160/h/160/interlace/1",
-			"name": "数码",
-			"details": "折叠屏手机"
-		}
-	],
-	"headers": [
-		{
-			"img": "//sh1.hoopchina.com.cn/apple-touch-icon.png",
-			"introduce": "识货APP · 全世界的运动好货",
-			"name": "获取运动装备最低价"
-		}, {
-			"img": "http://shihuo.hupucdn.com/def/20181227/a55f87b48c0bf85541cd1d037fc743db1545909561.jpg",
-			"introduce": "adidas Dame Lillard 5",
-			"price": "￥499",
-			"discount": "5.6折",
-			"del": "￥999"
-		}, {
-			"img": "http://shihuo.hupucdn.com/def/20171001/3d7e9a1f2fe873a07ba634f68ec661ea1506866200.jpg",
-			"introduce": "Jordan B. Fly X",
-			"price": "￥238",
-			"discount": "3.0折",
-			"del": "￥799"
-		}, {
-			"img": "http://shihuo.hupucdn.com/def/20181108/f6341b2b080ef3d1a8c02c2e7c1f2b8a1541668694.jpg",
-			"introduce": "Nike Zoom Kobe 1",
-			"price": "￥999",
-			"discount": "7.1折",
-			"del": "￥1399"
-		}
-	],
-	"bannerImgs": [
-		"http://shihuo.hupucdn.com/appHome/201901/0909/246bc13aad8b60058a81d242512e983f.png?imageView2/2/w/750/h/380/interlace/1",
-		"http://shihuo.hupucdn.com/appHome/201901/0720/18cffc61c52a5ce61173479619bbaa6e.png?imageView2/2/w/750/h/380/interlace/1",
-		"http://shihuo.hupucdn.com/appHome/201901/1010/5480e24dc886bde3fd4c599d22330d65.png?imageView2/2/w/750/h/380/interlace/1",
-		"http://shihuo.hupucdn.com/appHome/201901/0500/d63108ffbf581d59f8d3552e346b8258.jpg?imageView2/2/w/750/h/380/interlace/1",
-		"http://shihuo.hupucdn.com/appHome/201901/0810/e3e9e3e19c8ac46b699f554b3aca7538.jpg?imageView2/2/w/750/h/380/interlace/1"
-	],
-	"activity": {
-		"discounts": [
-			{
-				"img": "http://shihuo.hupucdn.com/appHome/201807/1811/1d039f64648d5e33025c747ec6420060.jpg?imageView2/2/w/120/h/120/interlace/1",
-				"name": "今日优惠",
-				"dat":"EQT 5折好价"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appHome/201802/0716/5d0eea37252cd190ba0975b3e5e1f49e.png?imageView2/2/w/120/h/120/interlace/1",
-				"name": "限时团购",
-				"dat":"春节不打烊"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appHome/201807/1310/f975458f8da63b0769796aba49271e1c.jpg?imageView2/2/w/120/h/120/interlace/1",
-				"name": "一键海淘",
-				"dat":"卡西欧黑金249元"
-			}
-		],
-		"hot": [
-			{
-				"img": "http://shihuo.hupucdn.com/appHome/201808/1710/5e683699826e2a13abd239e4e4e36793.jpg",
-				"name": "skullcandy骷髅头耳机",
-				"dat":"券后低至89元起"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appZone/201811/1214/2720301b13ee5c2b0003f78125b698ea.jpg",
-				"name": "1000块包全身",
-				"dat":"不说虚话"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appZone/201812/0411/e8dd17f83bc977f0d7014a077ed9d821.jpg",
-				"name": "怎么穿，显高且有范",
-				"dat":"170+穿搭指南"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appZone/201807/2411/b9541b36f94bfa8c6c51482e7536eb35.jpg",
-				"name": "实战性价比之选",
-				"dat":"球星支线"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appZone/201811/1214/7d721a0762b1a4762557aa33c75e6404.jpg",
-				"name": "花鸟市场行",
-				"dat":"今天穿这样"
-			},
-			{
-				"img": "http://shihuo.hupucdn.com/appZone/201811/1019/7e5b5b66171686cf805178be1c793bf0.jpg",
-				"name": "虎扑优选精英篮球袜",
-				"dat":"低至6.9元"
-			}			
-		]
-	},
-	"dis":[
+  "user": [
+    {
+      "username": "123",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "1234",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "username": "1111",
+      "password": "1111",
+      "id": 3
+    }
+  ],
+  "data": [
+    {
+      "img": "http://shihuo.hupucdn.com/def/20181105/2355ddafee2bdc0963e346192576c3631541383761.jpg?imageView2/0/w/160/h/160/interlace/1",
+      "name": "篮球",
+      "details": "纯白系列秒杀"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/def/20180801/a580ec1affbbf4a344974bc92969c7671533133549.jpg?imageView2/0/w/160/h/160/interlace/1",
+      "name": "跑步",
+      "details": "女王节秒杀"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/trade/reposition/2017-09-15/3e353e10cc19dda87f4786c56cf711c4.png?imageView2/0/w/160/h/160/interlace/1",
+      "name": "健身",
+      "details": "步瑞特装备秒杀"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/def/20170913/5dc29f834528ddfaaf2c6e85769aa5451505294878.jpg?imageView2/0/w/160/h/160/interlace/1",
+      "name": "足球",
+      "details": "其实是在吹总裁"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/trade/reposition/2017-11-29/7bffa5f42341f0c196db59b9fa89de60.png?imageView2/0/w/160/h/160/interlace/1",
+      "name": "潮流",
+      "details": "78元短袖秒杀"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/def/20180108/d46c35eb43ed513783e8db72e97e06a71515391268.jpg?imageView2/0/w/160/h/160/interlace/1",
+      "name": "数码",
+      "details": "折叠屏手机"
+    }
+  ],
+  "headers": [
+    {
+      "img": "//sh1.hoopchina.com.cn/apple-touch-icon.png",
+      "introduce": "识货APP · 全世界的运动好货",
+      "name": "获取运动装备最低价"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/def/20181227/a55f87b48c0bf85541cd1d037fc743db1545909561.jpg",
+      "introduce": "adidas Dame Lillard 5",
+      "price": "￥499",
+      "discount": "5.6折",
+      "del": "￥999"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/def/20171001/3d7e9a1f2fe873a07ba634f68ec661ea1506866200.jpg",
+      "introduce": "Jordan B. Fly X",
+      "price": "￥238",
+      "discount": "3.0折",
+      "del": "￥799"
+    },
+    {
+      "img": "http://shihuo.hupucdn.com/def/20181108/f6341b2b080ef3d1a8c02c2e7c1f2b8a1541668694.jpg",
+      "introduce": "Nike Zoom Kobe 1",
+      "price": "￥999",
+      "discount": "7.1折",
+      "del": "￥1399"
+    }
+  ],
+  "bannerImgs": [
+    "http://shihuo.hupucdn.com/appHome/201901/0909/246bc13aad8b60058a81d242512e983f.png?imageView2/2/w/750/h/380/interlace/1",
+    "http://shihuo.hupucdn.com/appHome/201901/0720/18cffc61c52a5ce61173479619bbaa6e.png?imageView2/2/w/750/h/380/interlace/1",
+    "http://shihuo.hupucdn.com/appHome/201901/1010/5480e24dc886bde3fd4c599d22330d65.png?imageView2/2/w/750/h/380/interlace/1",
+    "http://shihuo.hupucdn.com/appHome/201901/0500/d63108ffbf581d59f8d3552e346b8258.jpg?imageView2/2/w/750/h/380/interlace/1",
+    "http://shihuo.hupucdn.com/appHome/201901/0810/e3e9e3e19c8ac46b699f554b3aca7538.jpg?imageView2/2/w/750/h/380/interlace/1"
+  ],
+  "activity": {
+    "discounts": [
+      {
+        "img": "http://shihuo.hupucdn.com/appHome/201807/1811/1d039f64648d5e33025c747ec6420060.jpg?imageView2/2/w/120/h/120/interlace/1",
+        "name": "今日优惠",
+        "dat": "EQT 5折好价"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appHome/201802/0716/5d0eea37252cd190ba0975b3e5e1f49e.png?imageView2/2/w/120/h/120/interlace/1",
+        "name": "限时团购",
+        "dat": "春节不打烊"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appHome/201807/1310/f975458f8da63b0769796aba49271e1c.jpg?imageView2/2/w/120/h/120/interlace/1",
+        "name": "一键海淘",
+        "dat": "卡西欧黑金249元"
+      }
+    ],
+    "hot": [
+      {
+        "img": "http://shihuo.hupucdn.com/appHome/201808/1710/5e683699826e2a13abd239e4e4e36793.jpg",
+        "name": "skullcandy骷髅头耳机",
+        "dat": "券后低至89元起"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appZone/201811/1214/2720301b13ee5c2b0003f78125b698ea.jpg",
+        "name": "1000块包全身",
+        "dat": "不说虚话"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appZone/201812/0411/e8dd17f83bc977f0d7014a077ed9d821.jpg",
+        "name": "怎么穿，显高且有范",
+        "dat": "170+穿搭指南"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appZone/201807/2411/b9541b36f94bfa8c6c51482e7536eb35.jpg",
+        "name": "实战性价比之选",
+        "dat": "球星支线"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appZone/201811/1214/7d721a0762b1a4762557aa33c75e6404.jpg",
+        "name": "花鸟市场行",
+        "dat": "今天穿这样"
+      },
+      {
+        "img": "http://shihuo.hupucdn.com/appZone/201811/1019/7e5b5b66171686cf805178be1c793bf0.jpg",
+        "name": "虎扑优选精英篮球袜",
+        "dat": "低至6.9元"
+      }
+    ]
+  },
+  "dis":[
         {
           "img":"http://shihuo.hupucdn.com/appHome/201711/0113/705803887a16991348788bc77ef96298.png",
           "name":"运动"

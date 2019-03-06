@@ -1,3 +1,5 @@
+import {getCookie , setCookie} from "../../utils/auth";
+import store from "../../store"
 export default {
 	handleHeaders(state, params) {
 		state.headerList = params;
@@ -39,9 +41,14 @@ export default {
 	},
 	//登录注册
 	 handleLogin(state,params){
-	 	state.user = params;
+		state.token = getCookie();
+		 state.user = params.user;
+		 setCookie("user",params.user);
+		 
 	 },
 	handleRegister(state,params){
-		state.user = params;
+		state.statusRegister = state.staus;
+		state.infoRegister = state.info;
+		console.log(state)
 	},
 }

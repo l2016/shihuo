@@ -17,6 +17,8 @@ export default {
     
     username:"",
     password:"",
+    statusRegister:"",
+    infoRegister:"",
     user:"",
     token:""||getCookie()
 }

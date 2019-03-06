@@ -4,13 +4,12 @@
       <div>
         <b>品牌特卖</b>
       </div>
-        <router-link :to="{name:'detail'}">
-     
       <div class="right">
+        <a href="##">
         更多品牌
-          <img src="//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/youhui/index/more_6ed9489.png" >
+        <img src="//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/youhui/index/more_6ed9489.png" >
+        </a>
       </div>
-        </router-link>
     </div>
     
     <div class="temaiList"> 
@@ -81,13 +80,16 @@ export default {
          .right{
            width: 1.25rem;
            height: 0.27rem;
-           
+           a{
+              display: block;
+              width: 100%;
+              height: 100%;
               img{
                 width: 0.1rem;
                 height: 0.2rem;
                 float: right;
                }
-           
+           }
          }
      }
      .temaiList{

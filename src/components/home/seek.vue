@@ -11,7 +11,7 @@
 		</div>
 		<div class="seek-conent">
 			<ul>
-				<li v-for="(item,index) in seoList" :key="index"
+				<li v-for="(item,index) in seoList"
 					@click="handleInoputChange(item)">
 					{{item}}
 				</li>

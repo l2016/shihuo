@@ -23,8 +23,30 @@
 	import Tab from "./components/tab";
 	import BScroll from "better-scroll";
 	import Vuex from "vuex";
+	import {getCookie} from "../../utils/auth"
 	//	import GetTop from "../common/getTop";
 	export default {
+		mounted() {
+			if(getCookie("user")){
+				this.$router.push("/home")
+			}else{
+				this.$router.push("/login")
+			}
+			this.scroll = new BScroll(this.$refs.homeWrapper, {
+				pullUpLoad: true,
+				click: true,
+				tab: true,
+
+			});
+			this.scroll.on("pullingUp", () => {
+				this.handleGoodsList(this.page);
+				this.handleBasketballList(this.page);
+				this.handleRunList(this.page);
+				this.handleFitnessList(this.page);
+				this.handleTrendList(this.page);
+			});
+			
+		},
 		components: {
 			"Header-com": Header,
 			"Banner-com": Banner,
@@ -49,22 +71,7 @@
 				this.scroll.finishPullUp();
 			}
 		},
-		mounted() {
-			this.scroll = new BScroll(this.$refs.homeWrapper, {
-				pullUpLoad: true,
-				click: true,
-				tab: true,
-
-			});
-			this.scroll.on("pullingUp", () => {
-				this.handleGoodsList(this.page);
-				this.handleBasketballList(this.page);
-				this.handleRunList(this.page);
-				this.handleFitnessList(this.page);
-				this.handleTrendList(this.page);
-			});
-			
-		},
+		
 		created() {
 			this.handleGoodsList(this.page);
 			this.handleBasketballList(this.page);

@@ -2,7 +2,7 @@
 export default {
     handleGoods(state,params){
         state.goodsList = params;
-        //console.log(params)
+        console.log(params)
     },
     handleBrand(state,params){
         state.handleBrand = params
@@ -11,12 +11,10 @@ export default {
         state.handleNavs = params
     },
     handleDisData(state,params){
-        state.handleDisData = [...state.handleDisData,...params];
-        state.page++;       
+        state.handleDisData = params;      
     },
     handFootWear(state,params){
-        state.handFootWear = params;
-        
+        state.handFootWear = params;  
     },
     handCostume(state,params){
         state.handCostume = params;  
