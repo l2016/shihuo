@@ -20,23 +20,23 @@
           <mt-cell v-for="(n,index) in 10" :key="index" title="">
               <div class="jingxList">
                   <ul>
-                      <li>
+                      <li v-for="(item,index) in handleDaily" :key="index">
                           <div class="author">
                               <a href="">
-                                  <img src="http://shihuo.hupucdn.com/media/201807/2616/7b0bcc2b2af151eb013ca1f1ea8b38b4.jpg" alt="">
+                                  <img :src="item.data.avatar" alt="">
                               </a>
                               <div class="nameM">
-                                  <p class="name">FLIGHTCLUB中文站网</p>
-                                  <p class="time">2019-03-03</p>
+                                  <p class="name">{{item.data.author_name}}</p>
+                                  <p class="time">{{item.data.date}}</p>
                               </div>
                           </div>
                           <div class="content">
                               <a href="">
-                                  <div class="tit">蜘蛛侠 AJ1 沦为弟弟！这些「影视跨界」球鞋你没见过的有不少！</div>
-                                  <p class="imgOne"><img src="http://shihuo.hupucdn.com/article/2019-03-03/8d779e5532bc5386a74204e9956945fd.jpg?imageView2/0/w/626/h/280/interlace/1" alt=""></p>
+                                  <div class="tit">{{item.data.title}}</div>
+                                  <p class="imgOne"><img :src="item.data.img" alt=""></p>
                                   <div class="tags">
-                                      <span class="like">13</span>
-                                      <span class="say">3</span>
+                                      <span class="like">{{item.data.praise}}</span>
+                                      <span class="say">{{item.data.reply_count}}</span>
                                   </div>
                               </a>
                           </div>
@@ -48,19 +48,123 @@
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container2">
           <!-- cell组件 -->
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">2</mt-cell>
+          <mt-cell v-for="(n,index) in 1" :key="index" title="">
+            <div class="jingxList">
+                  <ul>
+                      <li v-for="(item,index) in handleNews" :key="index">
+                          <div class="author">
+                              <a href="">
+                                  <img :src="item.data.avatar" alt="">
+                              </a>
+                              <div class="nameM">
+                                  <p class="name">{{item.data.author_name}}</p>
+                                  <p class="time">{{item.data.date}}</p>
+                              </div>
+                          </div>
+                          <div class="content">
+                              <a href="">
+                                  <div class="tit">{{item.data.title}}</div>
+                                  <p class="imgOne"><img :src="item.data.img" alt=""></p>
+                                  <div class="tags">
+                                      <span class="like">{{item.data.praise}}</span>
+                                      <span class="say">{{item.data.reply_count}}</span>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container3">
           <!-- cell组件 -->
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">3</mt-cell>
+          <mt-cell v-for="(n,index) in 10" :key="index" title="">3
+             <div class="jingxList">
+                  <ul>
+                      <li v-for="(item,index) in handleEval" :key="index">
+                          <div class="author">
+                              <a href="">
+                                  <img :src="item.data.avatar" alt="">
+                              </a>
+                              <div class="nameM">
+                                  <p class="name">{{item.data.author_name}}</p>
+                                  <p class="time">{{item.data.date}}</p>
+                              </div>
+                          </div>
+                          <div class="content">
+                              <a href="">
+                                  <div class="tit">{{item.data.title}}</div>
+                                  <p class="imgOne"><img :src="item.data.img" alt=""></p>
+                                  <div class="tags">
+                                      <span class="like">{{item.data.praise}}</span>
+                                      <span class="say">{{item.data.reply_count}}</span>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container4">
           <!-- cell组件 -->
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">4</mt-cell>
+          <mt-cell v-for="(n,index) in 10" :key="index" title="">
+             <div class="jingxList">
+                  <ul>
+                      <li v-for="(item,index) in handleList" :key="index">
+                          <div class="author">
+                              <a href="">
+                                  <img :src="item.data.avatar" alt="">
+                              </a>
+                              <div class="nameM">
+                                  <p class="name">{{item.data.author_name}}</p>
+                                  <p class="time">{{item.data.date}}</p>
+                              </div>
+                          </div>
+                          <div class="content">
+                              <a href="">
+                                  <div class="tit">{{item.data.title}}</div>
+                                  <p class="imgOne"><img :src="item.data.img" alt=""></p>
+                                  <div class="tags">
+                                      <span class="like">{{item.data.praise}}</span>
+                                      <span class="say">{{item.data.reply_count}}</span>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container5">
           <!-- cell组件 -->
-          <mt-cell v-for="(n,index) in 10" :key="index" title="">5</mt-cell>
+          <mt-cell v-for="(n,index) in 10" :key="index" title="">
+             <div class="jingxList">
+                  <ul>
+                      <li v-for="(item,index) in handlePad" :key="index">
+                          <div class="author">
+                              <a href="">
+                                  <img :src="item.data.avatar" alt="">
+                              </a>
+                              <div class="nameM">
+                                  <p class="name">{{item.data.author_name}}</p>
+                                  <p class="time">{{item.data.date}}</p>
+                              </div>
+                          </div>
+                          <div class="content">
+                              <a href="">
+                                  <div class="tit">{{item.data.title}}</div>
+                                  <p class="imgOne"><img :src="item.data.img" alt=""></p>
+                                  <div class="tags">
+                                      <span class="like">{{item.data.praise}}</span>
+                                      <span class="say">{{item.data.reply_count}}</span>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </mt-cell>
         </mt-tab-container-item>
         <mt-tab-container-item id="tab-container6">
           <!-- cell组件 -->
@@ -90,6 +194,23 @@ export default {
   data() {
     return { active: "tab-container1" };
   },
+  computed:{
+         ...Vuex.mapState({
+        handleDaily: state => state.find.handleDaily
+       }),  
+        ...Vuex.mapState({
+        handleNews: state => state.find.handleNews
+       }),   
+       ...Vuex.mapState({
+        handleEval: state => state.find.handleEval
+       }),   
+         ...Vuex.mapState({
+        handleList: state => state.find.handleList
+       }), 
+       ...Vuex.mapState({
+        handlePad: state => state.find.handlePad
+       }), 
+  },
   updated(){
         if(!this.scroll){
             this.scroll = new BScroll(this.$refs.tabBar,{
@@ -106,7 +227,7 @@ export default {
   display: inline-block;
 }
 .nav {
-  padding: 10px;
+  padding: 0.1rem;
   width: max-content;
   display: flex;
   align-items: center;
@@ -114,7 +235,7 @@ export default {
 }
 .link {
   color: inherit;
-  padding: 20px;
+  padding: 10px;
   display: block;
 }
 #navs{
@@ -123,7 +244,7 @@ export default {
 }
 .jingxList{
     width: 100%;
-    padding-left: 0.2rem;
+    padding-left: 0.1rem;
     padding-bottom: .53333rem;
 }
 ul>li{
@@ -143,7 +264,7 @@ ul>li>.author>a{
     float: left;
     border-radius: .6rem;
     overflow: hidden;
-    margin-right: .26667rem;
+    margin-right: .2rem;
 } 
 ul>li>.author>a>img{
     display: block;
@@ -178,7 +299,7 @@ ul>li>.author>.nameM>.time{
     word-break: break-all;
 }
 .content>a>.imgOne{
-    margin: .26667rem 0;
+    margin: .2rem 0;
     width: 6.22rem;
    
 }
@@ -186,6 +307,24 @@ ul>li>.author>.nameM>.time{
     width: 100%;
      height:2.78rem;
 
+}
+.like{
+  background: url(//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/find/index/like_537e53f.png) left center no-repeat;
+    padding-left: .5rem;
+    background-size: .4rem auto;
+    height: .4rem;
+    display: inline-block;
+    color: #a4a4a4;
+    margin-right: .2rem;
+    line-height: .4rem;
+}
+.say{
+    background: url(//sh1.hoopchina.com.cn/fis_static/shihuomobile/static/find/index/say_348570f.png) left center no-repeat;
+    padding-left: .58667rem;
+    background-size: .45333rem auto;
+    line-height: .45333rem;
+    height: .3rem;
+    color: #a4a4a4;
 }
 </style>
 

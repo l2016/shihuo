@@ -31,28 +31,28 @@ export default {
     async handleDisData({commit},params){
         let data = await disData(params)
         commit("handleDisData",data.data)
-        console.log(data)
+        //console.log(data)
     },
     async handFootWear({commit},params){
         let data = await disFootWear(params)
         commit("handFootWear",data.data)
-        console.log(data)
+        //console.log(data)
     },
     async handCostume({commit},params){
         let data = await disCostume(params)
         commit("handCostume",data.data)
-        console.log(data)
+        //console.log(data)
     },
 
     async handCode({commit},params){
         let data = await disCode(params)
         commit("handCode",data.data)
-        console.log(data)
+        //console.log(data)
     },
     async handIterest({commit},params){
         let data = await disIterest(params)
         commit("handIterest",data.data)
-        console.log(data)
+        //console.log(data)
     },
     
     

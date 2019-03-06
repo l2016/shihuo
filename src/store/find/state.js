@@ -1,3 +1,8 @@
 export default {
-    handfind:[]
+    handfind:[],
+    handleDaily:[],
+    handleNews:[],
+    handleEval:[],
+    handleList:[],
+    handlePad:[]
 }
