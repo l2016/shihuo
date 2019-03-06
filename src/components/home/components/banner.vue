@@ -6,10 +6,10 @@
 			</div>
 		</div>
 		<div class="swiper-pagination banner-pagination"></div>
-		<div class="banner-input">
+		<div class="banner-input" @click="handleClick">
 			<div class="banner-input-inp">
 				<i class="iconfont">&#xe62b;</i>
-				<input type="text" value="搜索商品，品牌" />
+				<input type="text" placeholder="搜索商品，品牌" />
 			</div>
 			<span><i class="iconfont">&#xe69b;</i></span>
 		</div>
@@ -32,7 +32,10 @@
 		methods: {
 			...Vuex.mapActions({
 				handleHeaderBanner: "home/handleHeaderBanner"
-			})
+			}),
+			handleClick(){
+				this.$router.push({name:'seek'})
+			}
 		},
 		updated() {
 			if(!this.swiper) {
@@ -81,7 +84,7 @@
 				}
 				input{
 					width: 5.65rem;
-					height: 100%;
+					height: .6rem;
 					border: 0;
 				}
 			}

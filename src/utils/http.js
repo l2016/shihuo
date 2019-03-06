@@ -6,7 +6,7 @@ const http = axios.create({
 	//工作当中域名地址
 	//baseURL:"xxxx",
 	//请求超时
-	timeout:5000
+	timeout:10000
 })
 
 //请求拦截
